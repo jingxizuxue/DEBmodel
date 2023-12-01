@@ -18,17 +18,17 @@ The Dynamic Energy Budget (DEB) theory provides a comprehensive and quantitative
 
 To use this DEB model, clone the repository and install the required dependencies:
 
-\```bash
+```bash
 git clone https://github.com/jingxizuxue/DEBmodel.git
 cd DEBmodel
 pip install -r requirements.txt
-\```
+```
 
 ## Usage
 
 Here's a quick example of how to run a simulation using the DEB model:
 
-\```python
+```python
 from deb_model import DEB
 
 # Initialize the model with species-specific parameters
@@ -36,7 +36,7 @@ deb = DEB(species_params)
 
 # Run the model over a specified timespan
 results = deb.simulate(timespan)
-\```
+```
 
 For detailed usage and additional functionality, please refer to the [documentation](path/to/your/documentation).
 
